@@ -102,3 +102,53 @@ meter::-webkit-meter-suboptimum-value {
 meter::-webkit-meter-even-less-good-value {
   background: linear-gradient(to bottom, #ee5f5b);
 }
+
+/* Custom CSS */
+
+.btn-group {
+  margin-top: 36px;
+}
+
+.btn-margin {
+  margin-left: 10px
+}
+
+.want-to, .not-interested, .rate {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  border-width: 2px;
+}
+
+.want-to {
+  border-color: #007bff;
+  color: white;
+}
+
+.not-interested {
+  border-color: red;
+  color: white;
+}
+
+.rate {
+  border-color: orange;
+  color: white;
+}
+
+.want-to:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.not-interested:hover {
+  background-color: red;
+  color: white;
+}
+
+.rate:hover {
+  background-color: orange;
+  color: white;
+}

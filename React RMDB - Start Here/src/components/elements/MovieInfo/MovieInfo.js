@@ -31,6 +31,16 @@ const MovieInfo = (props) => {
                     {props.directors.map( (element, i) => {
                         return <p key={i} className="rmdb-director">{element.name}</p>
                     })}
+
+                    {/* custom code */}
+                    <div className="btn-group">
+                        <button className="want-to"><FontAwesome className="fa-plus" name="plus" size="1x" /> Want to See</button>
+                        <span className="btn-margin"></span>
+                        <button className="not-interested"><FontAwesome className="fa-times" name="times" size="1x" /> Not Interested</button>
+                        <span className="btn-margin"></span>
+                        <button className="rate"><FontAwesome className="fa-star" name="star" size="1x" /> Rate</button>
+                    </div>
+                    {/* end custom code */}
                 </div>
                 <FontAwesome className="fa-film" name="film" size="5x" />
             </div>
